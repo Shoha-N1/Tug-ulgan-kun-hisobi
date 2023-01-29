@@ -1,22 +1,72 @@
 
-.wrapper {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1200px;
+}
+
+
+.wrapper {
+    background-image: url(./../img/1582749475_pozdravleniya-s-dnem-rozhdeniya-zabavnye-yumornye.jpg);
+    background-repeat: no-repeat;
+    width: 1200px;
+    margin-left: 200px;
+    background-size: 1000px;
+    height: 557px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 input {
     text-align: center;
-    width: 400px;
+    width: 450px;
     height: 40px;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 19px;
+    margin-bottom: 20px;
 }
 
+
+
+h1 {
+    font-size: 37px;
+    color: rgb(235, 13, 13);
+}
+
+h2 {
+    margin-bottom: 100px;
+    border-radius: 4px;
+    padding: 5px 15px;
+    background-image: radial-gradient(rgb(0, 255, 42), white);
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+
 p {
+    margin-bottom: 15px;
     text-align: center;
     height: 20px;
-    margin-top: 400px;
+    margin-top: 200px;
     position: absolute;
     font-size: 26px;
+    border-radius: 4px;
+    padding: 5px 15px;
+    background-image: radial-gradient(rgb(0, 255, 42), white);
+    height: 35px;
+    width: 450px;
+
 }
+
+h3 {
+    border-radius: 4px;
+    padding: 5px 15px;
+    background-image: radial-gradient(rgb(0, 255, 42), white);
+    font-size: 24px;
+    color: rgb(255, 0, 119);
+   margin-top: 10px;
+} 
